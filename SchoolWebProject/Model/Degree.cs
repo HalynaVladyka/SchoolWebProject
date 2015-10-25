@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace SchoolWebProject.Models
+namespace SchoolWebProject.Model
 {
     public class Degree
     {

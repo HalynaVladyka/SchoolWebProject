@@ -18,7 +18,7 @@ namespace SchoolWebProject.Models
      //   public string UserId { get; set; }
         public User User { get; set; }
 
-        public DateTime DataPublished { get; set; }
+     //   public DateTime DataPublished { get; set; }
 
     }
 }

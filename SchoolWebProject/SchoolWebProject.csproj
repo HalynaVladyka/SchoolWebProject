@@ -111,6 +111,18 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Model\Announcement.cs" />
+    <Compile Include="Model\Category.cs" />
+    <Compile Include="Model\ClassRoom.cs" />
+    <Compile Include="Model\Degree.cs" />
+    <Compile Include="Model\Group.cs" />
+    <Compile Include="Model\LessonDetail.cs" />
+    <Compile Include="Model\Mark.cs" />
+    <Compile Include="Model\MarkType.cs" />
+    <Compile Include="Model\Schedule.cs" />
+    <Compile Include="Model\School.cs" />
+    <Compile Include="Model\Subject.cs" />
+    <Compile Include="Model\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -130,7 +142,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
